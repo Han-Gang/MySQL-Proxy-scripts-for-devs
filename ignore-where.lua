@@ -18,6 +18,7 @@
 -- You should have received a copy of the GNU General Public License
 -- along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+
 function nowhere(query)
 
     local ind_tblname = string.find(string.upper(query), "WHERE")
