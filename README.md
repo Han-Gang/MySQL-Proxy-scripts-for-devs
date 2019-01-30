@@ -65,4 +65,4 @@ By default, requests are made twice slower with an additional overhead of 0.1s.
 
 ### no-mysql.lua
 
-仍需要一个后端DB用于校验用户名密码等,但请求不发到后端DB去(已验证),并且性能还可以19474 QPS(单线程)  27264 QPS (6线程)  与6个mysql 客户端一起占用约20% 的CPU.    单线程 与mysql client 一起占用15%左右的CPU
+仍需要一个后端DB用于校验用户名密码等,但请求不发到后端DB去(已验证),并且性能还可以19474 QPS(单线程)  27264 QPS (6线程)  与6个mysql 客户端一起占用约20% 的CPU.    单线程 与mysql client 一起占用15%左右的CPU  36352  QPS (16线程)
