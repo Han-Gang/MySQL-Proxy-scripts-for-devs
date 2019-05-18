@@ -1,3 +1,7 @@
+tmux logging  :  ctrl  + b   :
+bind P pipe-pane -o "cat >>~/Desktop/#W.log" 
+bind P pipe-pane -o "cat >>~/111.log" 
+
 MySQL Proxy scripts for devs
 ============================
 
