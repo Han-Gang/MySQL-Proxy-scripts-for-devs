@@ -6,6 +6,30 @@ bind P pipe-pane -o "cat >>/Desktop/#W.log" <br>
 bind P pipe-pane -o "cat >>/111.log" <br>
 http://hyperpolyglot.org/multiplexers
 
+```b
+~.tmux.conf改为:
+set-option -g history-limit 30000
+bind D source-file ~/.tmux/mylayout
+
+
+ ~/.tmux/mylayout改为:
+selectp -t 0    #选中第0个窗格
+splitw -v -p 50  #将其分成上下两个，这样就变成了图中的布局了
+selectp -t 1
+splitw -h -p 50
+selectp -t 0     #选回第一个
+splitw -h -p 50
+selectp -t 3
+splitw -h -p 50
+selectp -t 2
+splitw -h -p 50
+selectp -t 1
+splitw -h -p 50
+selectp -t 0
+splitw -h -p 50
+
+```b
+
 
 MySQL Proxy scripts for devs
 ============================
