@@ -6,7 +6,7 @@ bind P pipe-pane -o "cat >>/Desktop/#W.log" <br>
 bind P pipe-pane -o "cat >>/111.log" <br>
 http://hyperpolyglot.org/multiplexers
 
-```b
+```
 ~.tmux.conf改为:
 set-option -g history-limit 30000
 bind D source-file ~/.tmux/mylayout
@@ -28,7 +28,7 @@ splitw -h -p 50
 selectp -t 0
 splitw -h -p 50
 
-```b
+```
 
 
 MySQL Proxy scripts for devs
