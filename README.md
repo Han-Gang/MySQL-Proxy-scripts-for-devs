@@ -41,7 +41,7 @@ tmux    ctrl+b  shift + D
 
 MySQL Proxy scripts for devs
 ============================
-
+https://zhjwpku.com/2018/01/16/mysql-proxy-alternatives.html
 This is a repository of useful [MySQL Proxy][mysql-proxy] scripts targetting
 mainly developers in quest of debugging.
 
