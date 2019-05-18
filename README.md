@@ -2,8 +2,8 @@ TMUX
 =====================
 
 tmux logging  :  ctrl  + b   : <br>
-bind P pipe-pane -o "cat >>/Desktop/#W.log" <br>
-bind P pipe-pane -o "cat >>/111.log" <br>
+pipe-pane -o "cat >>/Desktop/#W.log" <br>
+pipe-pane -o "cat >>/111.log" <br>
 http://hyperpolyglot.org/multiplexers
 
 ```
