@@ -28,6 +28,8 @@ splitw -h -p 50
 selectp -t 0
 splitw -h -p 50
 
+tmux    ctrl+b  shift + D
+
 ```
 
 
